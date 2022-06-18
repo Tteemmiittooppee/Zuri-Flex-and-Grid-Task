@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend-Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: hsl(0, 0%, 95%);
+  min-height: 100vh;
+}
+header{
+  background: black;
+  color: white;
+  width: 70px;
+  height: 30px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+header a{
+  text-decoration: none;
+  color: white;
+}
+header:hover{
+  background: white;
+  color: black;
+  cursor: pointer;
+  border: 2px solid black;
+}
+header a:hover{
+  background: white;
+  color: black;
+}
+main{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-left: 40px;
+  height: 50%;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Big Shoulders Display', cursive;
+}
+.orange-bg{
+  background: hsl(31, 77%, 52%);
+  width: 300px;
+  height: 500px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.blue-bg{
+  background: hsl(184, 100%, 22%);
+  width: 300px;
+    height: 500px;
+}
+.green-bg{
+  background: hsl(179, 100%, 13%);
+  width: 300px;
+  height: 500px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+img, h1, p{
+  margin-left: 50px;
+}
+img{
+  margin-top: 50px;
+}
+h1{
+  color: hsl(0, 0%, 95%);
+  margin-top: 30px;
+}
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-top: 30px;
+  line-height: 22.5px;
+  width: 200px;
+  text-align: left;
+  font-family: 'Lexend Deco', sans-serif;
+}
+.btn1{
+  padding: 12.5px 25px;
+  margin-left: 30px;
+  background: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  border: 0;
+  border-radius: 25px;
+  margin-top: 110px;
+  cursor: pointer;
+}
+.btn1:hover{
+  background: hsl(31, 77%, 52%); 
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
+.btn2{
+  padding: 12.5px 25px;
+  margin-left: 30px;
+  background: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+  border: 0;
+  border-radius: 25px;
+  margin-top: 110px;
+  cursor: pointer;
+}
+.btn2:hover {
+  background: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
+.btn3{
+  padding: 12.5px 25px;
+  margin-left: 30px;
+  background: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+  border: 0;
+  border-radius: 25px;
+  margin-top: 110px;
+  cursor: pointer;
+}
+.btn3:hover {
+  background: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
+/* mobile */
+@media screen and (max-width: 375px) {
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+    body {
+      background: hsl(0, 0%, 95%);
+    }
+  
+    main {
+      display: flex;
+      flex-direction: column;
+      padding: auto;
+      margin: auto;
+      justify-content: center;
+      width: 250px;
+    }
+  
+    .orange-bg {
+      background: hsl(31, 77%, 52%);
+      width: 250px;
+      height: 375px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 0;
+    }
+  
+    .blue-bg {
+      background: hsl(184, 100%, 22%);
+      width: 250px;
+      height: 375px;
+    }
+  
+    .green-bg {
+      background: hsl(179, 100%, 13%);
+      width: 250px;
+      height: 375px;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      margin-bottom: 10px;
+    }
+  
+    img,
+    h1,
+    p {
+      margin-left: 30px;
+    }
+  
+    img {
+      margin-top: 40px;
+    }
+  
+    h1 {
+      color: hsl(0, 0%, 95%);
+      margin-top: 20px;
+    }
+  
+    p {
+      color: hsla(0, 0%, 100%, 0.75);
+      margin-top: 20px;
+      line-height: 22.5px;
+      width: 200px;
+      text-align: left;
+    }
+  
+    .btn1 {
+      padding: 12.5px 25px;
+      margin-left: 20px;
+      background: hsl(0, 0%, 95%);
+      color: hsl(31, 77%, 52%);
+      border: 0;
+      border-radius: 25px;
+      margin-top: 15px;
+      margin-left: 20px;
+    }
+  
+    .btn2 {
+      padding: 12.5px 25px;
+      margin-left: 20px;
+      background: hsl(0, 0%, 95%);
+      color: hsl(184, 100%, 22%);
+      border: 0;
+      border-radius: 25px;
+      margin-top: 15px;
+        margin-left: 20px;
+    }
+  
+    .btn3 {
+      padding: 12.5px 25px;
+      margin-left: 20px;
+      background: hsl(0, 0%, 95%);
+      color: hsl(179, 100%, 13%);
+      border: 0;
+      border-radius: 25px;
+      margin-top: 15px;
+        margin-left: 20px;
+    }
+}
+/* all small screens */
+@media screen and (max-width: 540px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: hsl(0, 0%, 95%);
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    margin: auto;
+    justify-content: center;
+    width: 250px;
+  }
+
+  .orange-bg {
+    background: hsl(31, 77%, 52%);
+    width: 250px;
+    height: 375px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+  }
+
+  .blue-bg {
+    background: hsl(184, 100%, 22%);
+    width: 250px;
+    height: 375px;
+  }
+
+  .green-bg {
+    background: hsl(179, 100%, 13%);
+    width: 250px;
+    height: 375px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  img,
+  h1,
+  p {
+    margin-left: 30px;
+  }
+
+  img {
+    margin-top: 40px;
+  }
+
+  h1 {
+    color: hsl(0, 0%, 95%);
+    margin-top: 20px;
+  }
+
+  p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 20px;
+    line-height: 22.5px;
+    width: 200px;
+    text-align: left;
+  }
+
+  .btn1 {
+    padding: 12.5px 25px;
+    margin-left: 20px;
+    background: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    border: 0;
+    border-radius: 25px;
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+
+  .btn2 {
+    padding: 12.5px 25px;
+    margin-left: 20px;
+    background: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    border: 0;
+    border-radius: 25px;
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+
+  .btn3 {
+    padding: 12.5px 25px;
+    margin-left: 20px;
+    background: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    border: 0;
+    border-radius: 25px;
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+}
